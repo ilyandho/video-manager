@@ -1,0 +1,38 @@
+header.container {
+  height: 70px;
+  width: 100%;
+  background: orange;
+}
+
+header.container div {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: aliceblue;
+}
+
+header nav ul {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  min-width: 48px;
+  height: 100%;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  text-transform: capitalize;
+  line-height: 70px;
+}
+
+header nav ul li:hover {
+  background: orangered;
+}
